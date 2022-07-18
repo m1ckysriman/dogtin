@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&family=Montserrat:wght@300&family=Patrick+Hand&family=Roboto+Mono:wght@300&family=Ubuntu&display=swap');
+
+body{
+    font-family: Montserrat;
+    
+}
+
+
+
+title{
+    font-size: 400px;
+
+}
+
+#title{
+    background-color: rgb(177, 112, 152);
+    color: white;
+
+}
+
+
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15%;
+    
+    
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+    font-size: 170%;
+}
+
+.button{
+    margin: 30px;
+}
+
+
+
+
+
+
+/* nav brand */
+
+.navbar{
+    padding-bottom: 4rem;
+}
+
+
+.navbar-item{
+    font-size: 1.1rem;
+    font-weight: 500px;
+    color: white;
+}
+
+
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+/* butttons */
+
+.button-fav1{
+    background-color: rgb(165, 105, 105);
+}
+
+.button-fav1,.button-fav2{
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    
+}
+
+
+
+/* features */
+
+#features{
+    position: relative;
+    z-index: 1;
+    background-color: white
+    
+}
+
+.box{
+    padding: 10% 10%;
+    text-align: center;
+}
+
+.fa-solid{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.fa-solid:hover{
+    color:rgb(165, 105, 105);
+}
+
+
+
+/* testimonials */
+
+#testimonials{
+    
+    
+    background-color: rgb(165, 105, 105);
+    text-align: center;
+    color: white;
+}
+
+.testimonial-text{
+    font-size: 50px;
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100% ;
+    margin: 4%;
+}
+
+.carousel-item{
+    padding: 8% 15%;
+}
+
+/* press */
+
+
+#press{
+  text-align: center;
+  background-color: rgb(165, 105, 105);
+  padding: 50px;
+}
+
+.press-img{
+    width: 15%;
+    padding: 0 20px 15px;
+}
+
+
+/* pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-colunm{
+    padding: 2% 3%;
+    
+    
+}
+
+
+/* media */
+
+@media (max-width:980px)
+{
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+/* last column */
+
+
+#cta
+{
+    background-color: rgb(165, 105, 105);
+    text-align: center;
+    padding: 100px ;
+    
+}
+
+.hhh{
+    font-family: "Ubuntu";
+    padding: 30px;
+    color: white;
+    font-size: 40px;
+}
+
+.itembomb{
+    margin: 60px;
+    padding: 2% 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #3a3231;
+    border: 0;
+}
+
+.fa-brands{
+    margin: 7px;
+}
+
+
+#footer{
+    text-align: center;
+    margin: 50px auto;
+    padding-top: 20px;
+}
+.ppp{
+    font-size: small;
+}
+
